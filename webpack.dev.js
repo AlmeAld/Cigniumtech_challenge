@@ -11,9 +11,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].js',
-    publicPath: 'http://localhost:8000/',
+    publicPath: '/',
     chunkFilename: 'js/[id].[chunkash].js',
   },
+  devtool: 'source-map',
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
     open: true,
@@ -40,6 +41,8 @@ module.exports = {
           loader: 'url-loader',
           options: {
             limit: 9000,
+            outputPath: 'assets/images',
+            publicPath: '../assets/images',
           },
         },
       },
