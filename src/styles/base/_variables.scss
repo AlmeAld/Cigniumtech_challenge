@@ -1,0 +1,32 @@
+/*---------- $VARIABLES -----------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,300,400,600,700,900');
+
+// Branding colors
+
+$color-brand: #0099cb;
+$color-secondary:#01aa57;
+
+$color-black: rgb(0, 0, 0);
+$color-darkblack: #262626;
+$color-darkgrey: #999;
+$color-grey: #ECECEC;
+$color-white: rgb(255, 255, 255);
+
+// Texturas
+$color-alert: rgb(252, 228, 207);
+$color-error: rgb(218, 79, 73);
+$color-info: rgb(66, 104, 221);
+$color-success: rgb(91, 183, 91);
+
+
+// Tipografía
+$primaryfont: 'Montserrat',
+sans-serif;
+$secondaryfont: 'Open Sans',
+sans-serif;
+// $secondaryfont: 'Fira Sans', sans-serif;
+
+$font-weight-regular: 400;
+$font-weight-bold: 700;

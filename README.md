@@ -1,7 +1,7 @@
 
-# My personal React Boilerplate 
+# Frontend Challenge 
 
-My personal Boilerplate for react project using webpack, graphql and styled components
+Landing page for Legal & General AMERICA
 
 ### Prerequisites
 
@@ -26,13 +26,12 @@ npm run build
 
 ## Running the tests
 
-```
-npm run test
-```
+We are not currently working with test.
 
 ## Built With
 
-React, webpack, Graphql & Jest
+Javascript, Sass & HTML
+Tooling : Webpack, Linter 
 
 ## Authors
 
