@@ -1,0 +1,52 @@
+body {
+    font-family: $secondaryfont;
+}
+
+p {
+    line-height: 1.6;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+label {
+    font-weight: bold;
+    color: $color-darkblack;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid $color-grey;
+    padding: 1rem 1.2rem;
+    background: $color-white;
+    outline: none;
+    border-radius: 8px;
+}
+
+select {
+    width: 100%;
+    display: block;
+    border: 1px solid $color-grey;
+    padding: 1rem 1.2rem;
+    background: $color-white;
+    border-radius: 8px;
+}
+
+.radio {
+    display: flex;
+
+    label {
+        display: flex;
+        box-sizing: border-box;
+        border: 1px solid #B1B1B1;
+        padding: 1rem 1.2rem;
+        background: white;
+        outline: none;
+        border-radius: 8px;
+        margin-right: 5px;
+    }
+}

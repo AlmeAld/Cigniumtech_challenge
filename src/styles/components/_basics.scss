@@ -1,0 +1,66 @@
+.text {
+    &-left {
+        text-align: left;
+
+    }
+
+    &-center {
+        text-align: center;
+    }
+
+    &-header {
+        margin: 1rem 0;
+    }
+}
+
+.message {
+    height: 20px;
+
+    .error {
+        color: $color-error;
+    }
+}
+
+.highlighter-content {
+    background: $color-brand;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    color: $color-white;
+}
+
+.standard-size {
+    max-width: 1340px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0 1px #e5e5e5;
+    outline: none;
+    color: $color-white;
+
+    &-action {
+
+
+        background-color: $color-secondary;
+
+        padding: 1rem 1.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &-default {
+        background: $color-default;
+        padding: .7rem .8rem;
+        color: $color-white;
+        font-size: .8rem;
+        font-weight: bold;
+    }
+}

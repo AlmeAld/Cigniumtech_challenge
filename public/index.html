@@ -40,49 +40,92 @@
       </nav>
     </div>
   </header>
-  <main class="hero">
-    <h1 class="hero__title"><strong>HELP PROTECT</strong> your <br> family’s future with <br> Legal & General <br>
-      America
-    </h1>
-    <form class="hero__form">
-      <div class="form__header">
+  <main>
+    <div class="standard-size hero">
+
+      <h1 class="hero__title"><strong>HELP PROTECT</strong> your <br> family’s future with <br> Legal & General <br>
+        America
+      </h1>
+      <form class="hero__form">
         <p class="highlighter-content"> Get your FREE quote today</p>
-        <p>Please complete all fields</p>
-        <div class="field">
-          <label for="firstname">First name</label>
-          <input type="text" name="" id="firstname">
+        <p class="text-center text-header">Please complete all fields</p>
+        <div class="hero__fields">
+
+          <div class="field">
+            <div class="message"></div>
+            <label for="firstname">First name</label>
+            <input type="text" name="" id="firstname">
+          </div>
+          <div class="field">
+            <div class="message"></div>
+            <label for="lastname">Last name</label>
+            <input type="text" name="" id="lastname">
+          </div>
+          <div class="field">
+            <label for="zipcode">ZIP Code</label>
+            <input type="text" name="" id="zipcode">
+          </div>
+          <div class="field">
+            <label for="datebirth">Date of birth</label>
+            <input type="date" name="" id="datebirth">
+          </div>
+          <label for="Gender"></label>
+          <div class="field">
+            <label for="">Gender</label>
+            <div class="radio">
+              <label for="female" class="radio-input">
+                <input type="radio" name="gender" id="female" />
+                Female
+              </label>
+              <label for="male" class="radio-input">
+                <input type="radio" name="gender" id="male" />
+                Male
+              </label>
+              <!-- 
+              <input type="radio" name="gender" id="male" />
+              <label for="male" class="radio-input">Male</label> -->
+
+            </div>
+          </div>
+          <div class="field">
+            <label for="policy">Policy amount</label>
+            <select name="cars">
+              <option disabled selected value> -- select an option -- </option>
+              <option value="volvo">$ 100</option>
+              <option value="saab">$ 200</option>
+              <option value="fiat">$ 300</option>
+              <option value="audi">$ 400</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input type="tel" value="(20_)__-____" name="" id="phone">
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" name="" id="email">
+          </div>
+          <button class="button button-action " type="submit">
+            <img src="../src/assets/arrow.png" alt="">
+            <span>GET MY QUOTE</span></button>
         </div>
-        <div class="field">
-          <label for="lastname">Last name</label>
-          <input type="text" name="" id="lastname">
-        </div>
-        <div class="field">
-          <label for="zipcode">ZIP Code</label>
-          <input type="text" name="" id="zipcode">
-        </div>
-        <div class="field">
-          <label for="datebirth">Date of birth</label>
-          <input type="date" name="" id="datebirth">
-        </div>
-        <div class="field">
-          <label for="gender">Male</label>
-          <input type="radio" name="" id="gender">
-          <label for="gender">Female</label>
-          <input type="radio" name="" id="gender">
-        </div>
-        <div class="field">
-          <label for="policy">Policy amount</label>
-          <input type="" name="" id="policy">
-        </div>
-        <div class="field">
-          <label for="firstname">Email address</label>
-          <input type="email" name="" id="firstname">
-        </div>
-        <button class="call-to-action" type="submit">
-          <img src="../src/assets/arrow.png" alt="">
-          <span>GET MY QUOTE</span></button>
-      </div>
-    </form>
+        <p class="form__note">By clicking "GET MY QUOTE", I consent to receive e-mails, telephone calls, text messages
+          and
+          artificial or
+          pre-recorded messages from licensed sales agents of Legal & General America, Inc. and/or TZ Insurance
+          Solutions
+          LLC, or their affiliates (or their service provider partners on their behalf), regarding the insurance
+          products
+          and services they offer, at the e-mail address and telephone number provided above, including my wireless
+          number
+          (if provided), using an automated telephone dialing system for telemarketing purposes. I recognize that I am
+          not
+          required to grant this consent in order to receive information on, or enroll in, an insurance plan through the
+          foregoing companies, and that instead I may call 1-800-441-0724. I also agree to this website's Privacy
+          Policy.
+        </p>
+      </form>
+    </div>
   </main>
   <div class="highlighter-content">
     <h3 class="standard-size text-left">
@@ -93,20 +136,25 @@
     <div class="services__container standard-size">
       <div class="services__description">
         <h3>You may be able to get $500,000 in term llife insurance for $14' a month</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint reprehenderit in voluptatem eos tempora
-          pariatur esse impedit? Modi, fugit vel itaque consectetur, rem ea praesentium voluptatum incidunt, eaque
-          molestiae blanditiis.</p>
-        <div class="service__image">
-          <img src="../src/assets/landing-tablet.jpg" alt="">
+        <p>Term life insurance is an affordable way to help protect your family. It provides coverage for a specific
+          period of time, typically ranging from 10 years to 30 years. Legal & General America policies are available to
+          fit your family's unique coverage needs and budget. Your beneficiaries can use the proceeds to help with
+          everyday living expenses.</p>
+        <div class="services__image">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTOCD6Gtgy9GeAuHkaoAwRkgt5U2iUl7qXjpcxbwimAT0Nq03SO"
+            alt="extra image">
         </div>
-        <button class="call-to-action"> <img src="../src/assets/arrow.png" alt=""> GET A FREE
+        <p>Find out how affordable term life insurance is today. Get a free quote by calling our licensed insurance
+          agents at 1-800-441-0724 or by filling out the form on this page. </p>
+        <button class="button button-action"> <img src="../src/assets/arrow.png" alt=""> GET A FREE
+
           QUOTE</button>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est cum corporis enim tenetur asperiores
-          perferendis ea natus provident magni reprehenderit inventore culpa obcaecati aliquid quae, ex, nam officia in.
-        </p>
+        <p>*A $14 monthly premium is applicable for a 35-year-old female nonsmoker in excellent health purchasing a
+          10 year OPTerm life insurance policy with a $500,000 face amount. See full disclosure below.</p>
       </div>
       <div class="services__covers">
-        <h3>Term Life Insurance can help your family cover:
+        <h3>Term Life Insurance can <br> help your family cover:
         </h3>
         <div class="services__card">
           <div class="services__images">
@@ -139,8 +187,8 @@
     </div>
   </section>
   <section class="rating-section">
-    <div>
-      <h3>2016 Independent Ratings for Overwall Financial Strength</h3>
+    <div class="standard-size rating__container">
+      <h3>2016 Independent Ratings <br> for Overwall Financial Strength</h3>
       <div class="rating__card">
         <div class="rating__number">
           A+
@@ -167,8 +215,40 @@
       </div>
     </div>
   </section>
-  <footer>
-    <div></div>
+  <footer class="footer">
+    <div class="standard-size">
+      <h1>1-800-377-1534</h1>
+      <div class="brands">
+        <img src="../src/assets/bbb.png" alt="">
+        <img src="../src/assets/norton.png" alt="">
+        <img src="../src/assets/secure_website.png" alt="">
+      </div>
+      <button class="button button-default">Already an LGA customer?</button>
+      <ul>
+        <li><a href="/about"> About Us</a></li>
+        <li><a href="/privacy">Privacy Policy</a> </li>
+      </ul>
+      <p>
+        Legal & General America life insurance products are underwritten and issued by Banner Life Insurance Company,
+        Urbana, MD and William Penn Life Insurance Company of New York, Valley Stream, NY. Banner products are
+        distributed in 49 states and in DC. Banner does not solicit business in NY. OPTerm policy form # ICC12OPTN and
+        state variations. William Penn products are available exclusively in New York. OPTerm policy form in NY is
+        #OPTN-NY. Two-year contestability and suicide provisions apply. The term life insurance premiums quoted here are
+        based on the information provided for this quote. The quote is based on the assumption of excellent health and
+        does not take into consideration occupational risks or other avocations. Approval and actual premiums will be
+        based upon the entire underwriting process, including but not limited to, information provided on the
+        application, exam results and specific underwriting requirements and criteria. OPTerm 10 issue ages are 20-70
+        for non-tobacco classes and 20-65 for tobacco classes. In New York, OPTerm 10 issue ages 20-75 non-tobacco
+        classes; 20-75 tobacco classes. Premium rates vary by coverage amount: $100,000-$249,999, $250,000-$499,999,
+        $500,000-$999,999, $1,000,000 and above. Premiums quoted include $60 annual policy fee. Premiums are guaranteed
+        to stay level for 10 years and increase annually after initial guarantee period. OPTerm policies can be issued
+        in preferred plus non-tobacco, preferred non-tobacco, standard plus non-tobacco, standard non-tobacco, preferred
+        tobacco and standard tobacco classes. OPTerm 10 substandard policies can be issued through Table 12, subject to
+        underwriting discretion. Coverage can be renewed to age 95. Policies can be returned without obligation within
+        30 days of receipt in most states. Rates as of 2.13.17. Policy descriptions provided here are not a statement of
+        contract. Please refer to the policy forms for full disclosure of all benefits and limitations. (17-178)
+      </p>
+    </div>
   </footer>
 
 </body>

@@ -10,8 +10,10 @@ $color-secondary:#01aa57;
 
 $color-black: rgb(0, 0, 0);
 $color-darkblack: #262626;
+$color-lightblack: #272727;
 $color-darkgrey: #999;
-$color-grey: #ECECEC;
+
+$color-grey: #B1B1B1;
 $color-white: rgb(255, 255, 255);
 
 // Texturas
@@ -19,6 +21,7 @@ $color-alert: rgb(252, 228, 207);
 $color-error: rgb(218, 79, 73);
 $color-info: rgb(66, 104, 221);
 $color-success: rgb(91, 183, 91);
+$color-default: #575757;
 
 
 // Tipografía
@@ -26,7 +29,3 @@ $primaryfont: 'Montserrat',
 sans-serif;
 $secondaryfont: 'Open Sans',
 sans-serif;
-// $secondaryfont: 'Fira Sans', sans-serif;
-
-$font-weight-regular: 400;
-$font-weight-bold: 700;
