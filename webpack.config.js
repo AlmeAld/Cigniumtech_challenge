@@ -20,12 +20,19 @@ module.exports = {
     minimizer: [new TersetJSPlugin(), new OptimizeCSSAssetsPlugin()],
   },
 
-  devServer: {
-    port: 8000,
-    open: true,
-  },
   module: {
     rules: [
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+            options: {
+              minimize: true,
+            },
+          },
+        ],
+      },
       {
         test: /\.js$/,
         use: 'babel-loader',
