@@ -19,13 +19,21 @@ module.exports = {
   optimization: {
     minimizer: [new TersetJSPlugin(), new OptimizeCSSAssetsPlugin()],
   },
+  devtool: 'source-map',
 
-  devServer: {
-    port: 8000,
-    open: true,
-  },
   module: {
     rules: [
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+            options: {
+              minimize: true,
+            },
+          },
+        ],
+      },
       {
         test: /\.js$/,
         use: 'babel-loader',
@@ -47,6 +55,8 @@ module.exports = {
           loader: 'url-loader',
           options: {
             limit: 9000,
+            outputPath: 'assets/images',
+            publicPath: '../assets/images',
           },
         },
       },
