@@ -98,11 +98,7 @@ main {
         align-items: space-between;
         align-self: flex-end;
 
-        &__note {
-            color: $color-lightblack;
-            font-size: .6rem;
-            padding: 4%;
-        }
+
 
         button {
             margin: auto;
@@ -117,6 +113,13 @@ main {
     }
 }
 
+.form {
+    &__note {
+        color: $color-lightblack;
+        font-size: .6rem;
+        padding: 4%;
+    }
+}
 
 
 .field {
